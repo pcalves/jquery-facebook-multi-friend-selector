@@ -32,7 +32,7 @@ This should fetch the current users friends and give you the interface to select
 Options
 -------
 These options can be passed into the jfmfs function with a map of options like jfmfs({key1: val, key2: val})
-
+* access_token: string (optional)- a valid access token (useful if you authenticated through PHP)
 * max_selected: int (optional)- max number of items that can be selected
 * labels: object with i18n labels for translations. If you pass this, you need to define all of the labels.
 
